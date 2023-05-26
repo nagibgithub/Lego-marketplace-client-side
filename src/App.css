@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.font-n {
+  font-family: 'Patrick Hand', cursive;
+}
+
+.navActive {
+  @apply btn-design-n bg-sky-400 text-sky-800 font-bold rounded-xl border-sky-500
+}
+
+.navPending {
+  @apply btn-design-n bg-gray-200 font-bold rounded-xl border-sky-500
+}
+
+.navInactive {
+  @apply btn-design-n font-bold rounded-xl border-sky-500
+}
+
+.btn-n {
+  @apply btn-design-n border-sky-500 rounded-lg bg-sky-200 text-sky-800 font-bold
+}
+
+.btn-design-n {
+  @apply px-4 py-2 border hover:border-sky-500 border-white hover:bg-white active:bg-blue-800 active:text-white font-n uppercase
+}
+
+.login-container {
+  @apply bg-sky-500
+}
+
+.login-form-container {
+  @apply lg:w-1/2 xl:w-1/3 mx-auto py-5 backdrop-blur-lg rounded-2xl border-2 border-white lg:shadow-lg lg:shadow-white lg:px-8 px-4
+}
+
+.input-field {
+  @apply bg-white bg-opacity-20 focus:bg-white focus:placeholder:text-black font-semibold focus:text-blue-700 text-white px-4 py-2 text-lg rounded-md border-2 border-white placeholder:text-white active:bg-white
+}
+
+.input-label {
+  @apply font-n text-xl font-bold text-sky-700
+}
+
+.google-signin-button {
+  @apply mt-2 border-2 rounded-lg w-full text-center py-2 px-4 flex justify-center items-center hover:bg-white active:bg-opacity-50 btn-n
+}
+
+.tr-th th {
+  @apply font-n text-lg text-center border-2
+}
+
+.tr-td td {
+  @apply border-2 text-lg font-bold font-n
+}
+
+.tab-active{
+  @apply tab-1 rounded-t-3xl  
+}
+
+.tab-inactive{
+  @apply tab-1 border-white
+}
+
+.sun-tab-active {
+  @apply tab-1 rounded-t-3xl  
+}
+
+.sun-tab-inactive{
+  @apply tab-1 
+}
+
+
+.tab-1 {
+  @apply text-center py-5 cursor-pointer font-n text-sm md:text-xl font-bold rounded-t-3xl border-t-2 border-l-2 border-r-2 
+}
+
+.text-n{
+  @apply font-n font-bold text-sky-700 text-center py-5
+}
+
+.search-n {
+  @apply border-8 h-20 pl-7 w-2/3 border-sky-500 rounded-full text-2xl font-semibold font-n shadow-lg
+}
+
+.lego-details h1 {
+  @apply font-n text-2xl py-2
+}
+
+.btn-update{
+  @apply btn-action border-green-700 text-green-700 hover:bg-green-200 active:bg-green-500 
+}
+
+.btn-delete{
+  @apply btn-action border-red-700 text-red-700 hover:bg-red-200 active:bg-red-500
+}
+
+.btn-action {
+  @apply font-n border-2 mx-5 text-xl font-bold rounded-2xl py-4 active:text-white
+}
+
+.selected {
+  @apply common bg-sky-500
+}
+
+.unSelected{
+  @apply common
+}
+
+.common {
+  @apply border py-2 px-8 font-n border-blue-700 text-2xl font-bold
+}
